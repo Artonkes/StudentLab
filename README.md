@@ -1,7 +1,8 @@
+# StudentLan-TestTask
 
-для запуска docker потребуется:
-1. Провкрить есть ли сам контейнер - sudo docker ps -a
-2. Если есть то запустить (если не запущен) командой - sudo docker start mycontainer
+Для запуска docker потребуется выполнить команды:
+1. sudo docker build -t myimage .
+2. sudo docker run -d --name mycontainer -p 80:80 myimage
 
 
 Ссылка для тестирования API:
